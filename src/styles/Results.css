@@ -1,0 +1,119 @@
+.result-screen {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .result-screen h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .emoji {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+  
+  .result-screen h2 {
+    color: #7f8c8d;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+  }
+  
+  .score {
+    margin: 2rem 0;
+  }
+  
+  .score span {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #3498db;
+    line-height: 1;
+  }
+  
+  .score p {
+    color: #7f8c8d;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .stat {
+    padding: 1.5rem;
+    border-radius: 8px;
+    min-width: 100px;
+  }
+  
+  .stat span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat p {
+    color: #7f8c8d;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .correct {
+    background-color: #e8f6ef;
+    color: #27ae60;
+  }
+  
+  .incorrect {
+    background-color: #fdedec;
+    color: #e74c3c;
+  }
+  
+  .notAnswered {
+    background-color: #f4f6f6;
+    color: #7f8c8d;
+  }
+  
+  .retake-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+  }
+  
+  .retake-btn:hover {
+    background-color: #2980b9;
+  }
+
+  .result-box {
+    border: 2px solid #ccc;
+    padding: 1rem 0;
+  }
+  
+  /* Dynamic percentage color based on score */
+  .result-screen.success .score span {
+    color: #27ae60;
+  }
+  
+  .result-screen.warning .score span {
+    color: #f1c40f;
+  }
+  
+  .result-screen.danger .score span {
+    color: #e74c3c;
+  }

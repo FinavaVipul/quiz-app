@@ -1,0 +1,74 @@
+.welcome-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .rules {
+    background-color: #ccc;
+    padding: 1rem;
+  }
+  .btn-rules {
+    cursor: pointer !important;
+    all: unset;
+    color: blue;
+  }
+  .categoty-section {
+    margin-top: 1rem;
+  }
+  
+  .welcome-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .category-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .category-group label {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+  }
+  
+  .category-group input[type="radio"] {
+    width: 20px;
+    margin: 20px 20px 20px 0;
+  }
+  
+  .welcome-container button[type="submit"] {
+    padding: 1rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .start-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+    opacity: 0.7;
+  }
+  
+  .start-button:disabled:hover {
+    background-color: #bdc3c7;
+  }
+  
+  .welcome-container button[type="submit"]:hover {
+    background: #2980b9;
+  }

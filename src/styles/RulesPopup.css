@@ -1,0 +1,83 @@
+.rules-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 650px;
+    width: 90%;
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .close-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .close-icon:hover {
+    transform: rotate(90deg);
+  }
+  
+  .close-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #7f8c8d;
+  }
+  
+  .close-icon:hover svg {
+    color: #e74c3c;
+  }
+
+  .rules-section {
+    margin: 1.5rem 0;
+  }
+  
+  .rules-section h3 {
+    color: #3498db;
+    margin-bottom: 0.5rem;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: flex-end;
+  }
+  
+  .confirm-btn, .cancel-btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .confirm-btn {
+    background: #27ae60;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #e74c3c;
+    color: white;
+  }

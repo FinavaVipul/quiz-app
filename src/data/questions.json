@@ -1,0 +1,507 @@
+{
+    "categories": [
+      {
+        "id": "js_basics",
+        "name": "JavaScript Basics",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+            "options": [
+              "A. <script name='script.js'>",
+              "B. <script href='script.js'>",
+              "C. <script src='script.js'>",
+              "D. <script file='script.js'>"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "Which company developed JavaScript?",
+            "options": [
+              "A. Microsoft",
+              "B. Netscape",
+              "C. Google",
+              "D. Mozilla"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "Which keyword is used to declare a constant variable in JavaScript?",
+            "options": [
+              "A. let",
+              "B. const",
+              "C. var",
+              "D. static"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "How do you write 'Hello World' in an alert box?",
+            "options": [
+              "A. alertBox('Hello World');",
+              "B. msg('Hello World');",
+              "C. alert('Hello World');",
+              "D. msgBox('Hello World');"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "Which symbol is used for single-line comments in JavaScript?",
+            "options": [
+              "A. //",
+              "B. /* */",
+              "C. #",
+              "D. <!-- -->"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "What will `console.log(typeof NaN)` print?",
+            "options": [
+              "A. number",
+              "B. string",
+              "C. undefined",
+              "D. object"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "What does the '===' operator do in JavaScript?",
+            "options": [
+              "A. Compares both value and type",
+              "B. Compares only value",
+              "C. Assigns a value",
+              "D. Checks if a variable exists"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "Which method is used to remove the last element from an array?",
+            "options": [
+              "A. shift()",
+              "B. pop()",
+              "C. removeLast()",
+              "D. splice()"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },{
+            "id": "q9",
+            "question": "What is the purpose of the `map()` function in JavaScript?",
+            "options": [
+              "A. To filter elements in an array",
+              "B. To iterate over an array and transform elements",
+              "C. To find an element in an array",
+              "D. To sort an array"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "Which of the following is NOT a valid JavaScript data type?",
+            "options": [
+              "A. Number",
+              "B. Boolean",
+              "C. Character",
+              "D. Undefined"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "angular_basics",
+        "name": "Angular Basics",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which directive is used to bind data in Angular?",
+            "options": [
+              "A. ng-model",
+              "B. ng-bind",
+              "C. ng-data",
+              "D. ng-controller"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "What is the command to create a new Angular component?",
+            "options": [
+              "A. ng create component",
+              "B. ng new component",
+              "C. ng generate component",
+              "D. ng add component"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "Which file is the entry point of an Angular application?",
+            "options": [
+              "A. main.ts",
+              "B. index.html",
+              "C. app.module.ts",
+              "D. angular.json"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "What is the purpose of the Angular CLI?",
+            "options": [
+              "A. To create new Angular projects",
+              "B. To manage Angular dependencies",
+              "C. To generate components, services, and modules",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "Which directive is used for conditional rendering in Angular?",
+            "options": [
+              "A. *ngIf",
+              "B. *ngFor",
+              "C. *ngSwitch",
+              "D. *ngRender"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "What is the primary purpose of Angular services?",
+            "options": [
+              "A. To style components",
+              "B. To manage application logic and data sharing",
+              "C. To define routes",
+              "D. To render UI elements"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "Which Angular module is required for routing?",
+            "options": [
+              "A. FormsModule",
+              "B. HttpClientModule",
+              "C. RouterModule",
+              "D. CommonModule"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "Which lifecycle hook is called after a component’s view has been fully initialized?",
+            "options": [
+              "A. ngOnInit",
+              "B. ngAfterViewInit",
+              "C. ngOnChanges",
+              "D. ngDoCheck"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "What is dependency injection in Angular?",
+            "options": [
+              "A. A way to include external scripts",
+              "B. A way to handle asynchronous data",
+              "C. A design pattern for managing dependencies",
+              "D. A method for handling DOM events"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "Which decorator is used to define an Angular service?",
+            "options": [
+              "A. @Component",
+              "B. @Injectable",
+              "C. @Service",
+              "D. @Directive"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "react_js_advance",
+        "name": "React.js Advance",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which hook is used for side effects in a functional component?",
+            "options": [
+              "A. useState",
+              "B. useEffect",
+              "C. useReducer",
+              "D. useContext"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "How do you memoize a function in React?",
+            "options": [
+              "A. React.memo()",
+              "B. useMemo()",
+              "C. useCallback()",
+              "D. Both B and C"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "What is the purpose of React's Context API?",
+            "options": [
+              "A. To manage component lifecycle",
+              "B. To optimize performance",
+              "C. To manage global state and avoid prop drilling",
+              "D. To handle HTTP requests"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "Which hook is used to manage state in a functional component?",
+            "options": [
+              "A. useRef",
+              "B. useEffect",
+              "C. useState",
+              "D. useContext"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "How does React optimize rendering performance?",
+            "options": [
+              "A. By using Virtual DOM",
+              "B. By directly modifying the real DOM",
+              "C. By running JavaScript on the server",
+              "D. By avoiding the use of state"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "What does the useRef hook return?",
+            "options": [
+              "A. A function",
+              "B. An object with a .current property",
+              "C. A boolean value",
+              "D. A JSX element"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "Which lifecycle method is replaced by useEffect in functional components?",
+            "options": [
+              "A. componentDidMount",
+              "B. componentDidUpdate",
+              "C. componentWillUnmount",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "What is the correct way to handle asynchronous data fetching in useEffect?",
+            "options": [
+              "A. Call async function inside useEffect",
+              "B. Directly use async function as useEffect callback",
+              "C. Use setTimeout() inside useEffect",
+              "D. Fetch data synchronously inside useEffect"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "Which of the following helps prevent unnecessary re-renders in React?",
+            "options": [
+              "A. useMemo",
+              "B. React.memo",
+              "C. useCallback",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "What is the purpose of useReducer in React?",
+            "options": [
+              "A. To manage complex state logic",
+              "B. To replace useEffect",
+              "C. To update the DOM",
+              "D. To create components"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "flutter",
+        "name": "Flutter",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "Which programming language is used in Flutter?",
+            "options": [
+              "A. Java",
+              "B. Dart",
+              "C. Swift",
+              "D. Kotlin"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "What widget is used for user interaction in Flutter?",
+            "options": [
+              "A. StatelessWidget",
+              "B. GestureDetector",
+              "C. Container",
+              "D. Padding"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "Which command is used to create a new Flutter project?",
+            "options": [
+              "A. flutter create my_project",
+              "B. flutter new my_project",
+              "C. flutter generate my_project",
+              "D. flutter init my_project"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "What is the main function of the 'pubspec.yaml' file in Flutter?",
+            "options": [
+              "A. Defines application dependencies",
+              "B. Stores user preferences",
+              "C. Controls app navigation",
+              "D. Handles HTTP requests"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "Which widget is used to create a scrollable list in Flutter?",
+            "options": [
+              "A. ListView",
+              "B. Column",
+              "C. SingleChildScrollView",
+              "D. Both A and C"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "What is the purpose of the 'setState' method in Flutter?",
+            "options": [
+              "A. To define a new widget",
+              "B. To manage state updates in a StatefulWidget",
+              "C. To retrieve API data",
+              "D. To initialize an application"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "Which widget is commonly used as the root widget in a Flutter app?",
+            "options": [
+              "A. MaterialApp",
+              "B. Scaffold",
+              "C. Container",
+              "D. Column"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "Which package is commonly used for state management in Flutter?",
+            "options": [
+              "A. Provider",
+              "B. Redux",
+              "C. Bloc",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "What is the purpose of the 'build' method in a Flutter widget?",
+            "options": [
+              "A. To define the UI structure",
+              "B. To fetch API data",
+              "C. To handle user input",
+              "D. To navigate between screens"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "Which widget is used to create a button in Flutter?",
+            "options": [
+              "A. FlatButton",
+              "B. ElevatedButton",
+              "C. TextButton",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          }
+        ]
+      }
+    ]
+  }
