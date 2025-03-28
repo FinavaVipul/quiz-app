@@ -28,17 +28,17 @@ const ResultScreen = ({ score, total, correct, incorrect, notAnswered, onRetake 
       <div className='result-box'>
       <div>Out of 10 question</div>
       <div className="stats">
-        <div className="stat correct">
-          <span>{correct}</span>
-          <p>Correct</p>
+        <div>
+          <span className="stat correct">{correct}</span>
+          Correct
         </div>
-        <div className="stat incorrect">
-          <span>{incorrect}</span>
-          <p>Incorrect</p>
+        <div>
+          <span className="stat incorrect">{incorrect}</span>
+          Incorrect
         </div>
-        <div className="stat unanswered">
-          <span>{notAnswered}</span>
-          <p>Not Answered</p>
+        <div>
+          <span className="stat unanswered">{notAnswered}</span>
+          Not Answered
         </div>
       </div>
       </div>

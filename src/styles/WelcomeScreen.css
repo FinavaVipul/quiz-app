@@ -72,3 +72,9 @@
   .welcome-container button[type="submit"]:hover {
     background: #2980b9;
   }
+
+  @media screen and (max-width: 767px) {
+    .category-group label {
+      width: 100%;
+    }
+  }

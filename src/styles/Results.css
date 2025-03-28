@@ -48,10 +48,11 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    margin-top: 10px;
   }
   
   .stat {
-    padding: 1.5rem;
+    padding: 5px;
     border-radius: 8px;
     min-width: 100px;
   }
@@ -70,17 +71,14 @@
   }
   
   .correct {
-    background-color: #e8f6ef;
     color: #27ae60;
   }
   
   .incorrect {
-    background-color: #fdedec;
     color: #e74c3c;
   }
   
   .notAnswered {
-    background-color: #f4f6f6;
     color: #7f8c8d;
   }
   
@@ -116,4 +114,16 @@
   
   .result-screen.danger .score span {
     color: #e74c3c;
+  }
+
+  @media screen and (max-width: 767px) {
+    .stats {
+      gap: 0.5rem;
+    }
+
+    .stat {
+      padding: 5px;
+      min-width: 80px;
+
+    }
   }
