@@ -14,7 +14,7 @@ const WelcomeScreen = ({ categories, onStart }) => {
 
   return (
     <div className="welcome-container">
-        <h1>Welcome to QUIZMania</h1>
+        <h1>Welcome to <span className='font-1'>QUIZ</span><span className='font-2'>Mania</span></h1>
         <div className='rules'>
             <p>Please read all the rules about this quiz before you start.</p>
             <button className='btn-rules' onClick={() => setShowRules(true)} >

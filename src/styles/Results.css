@@ -2,9 +2,7 @@
     max-width: 600px;
     margin: 2rem auto;
     padding: 2rem;
-    background: #ffffff;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
@@ -34,7 +32,7 @@
     display: block;
     font-size: 4rem;
     font-weight: bold;
-    color: #3498db;
+    color: #B92B5D;
     line-height: 1;
   }
   
@@ -83,7 +81,7 @@
   }
   
   .retake-btn {
-    background-color: #3498db;
+    background-color: #B92B5D;
     color: white;
     padding: 1rem 2.5rem;
     border: none;
@@ -95,7 +93,7 @@
   }
   
   .retake-btn:hover {
-    background-color: #2980b9;
+    background-color: #B92B5D;
   }
 
   .result-box {

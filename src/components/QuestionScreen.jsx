@@ -1,8 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import '../styles/QuestionScreen.css';
 
 const QuestionScreen = ({ question, current, total, timeLeft, progress, onAnswer, onNext, onSkipQuestion, isLast }) => {
   const [selected, setSelected] = useState(null);
+  
+   useEffect(() => {
+      setSelected(null);
+    }, [current]);
+
   const handleSelect = (index) => {
     setSelected(index);
     onAnswer(question.options[index][0]);
